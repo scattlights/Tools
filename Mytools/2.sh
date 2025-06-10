@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 echo "开始系统更新和清理..."
 
 if [ -f /etc/debian_version ]; then
