@@ -1,6 +1,11 @@
 #!/bin/bash
 clear
 
+read -rp "是否要修改 SSH 登录端口？(y/n): " confirm
+if [[ "$confirm" != "y" ]]; then
+    exit 0
+fi
+
 while true; do
   read -r -p "请输入新的 SSH 登录端口号（1024-65535）： " port
   if [[ "$port" =~ ^[0-9]+$ ]] && [ "$port" -ge 1024 ] && [ "$port" -le 65535 ]; then
