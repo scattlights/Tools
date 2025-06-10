@@ -1,6 +1,7 @@
 #!bin/bash
 clear
 echo "安装UFW并启用"
+echo
 
 read -rp "确定要继续吗？(y/n): " confirm
 if [[ "$confirm" != "y" ]]; then
