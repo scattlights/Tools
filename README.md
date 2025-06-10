@@ -9,3 +9,7 @@ bash <(curl -s https://raw.githubusercontent.com/scattlights/Tools/main/run.sh)
 2.系统更新和清理
 
 ---
+3.安装UFW并启用
+
+---
+4.查看或添加需要开放的UFW端口
