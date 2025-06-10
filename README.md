@@ -1,3 +1,3 @@
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/yourusername/Mytools/main/*.sh)
+bash <(curl -s https://raw.githubusercontent.com/scattlights/Mytools/main/*.sh)
 ```
