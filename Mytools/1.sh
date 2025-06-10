@@ -1,7 +1,9 @@
 #!/bin/bash
 clear
+echo "修改 SSH 登录端口 "
+echo
 
-read -rp "是否要修改 SSH 登录端口？(y/n): " confirm
+read -rp "确定要继续吗？(y/n): " confirm
 if [[ "$confirm" != "y" ]]; then
     exit 0
 fi
