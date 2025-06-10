@@ -1,5 +1,11 @@
 #!/bin/bash
 clear
+
+read -rp "是否要系统更新和清理？(y/n): " confirm
+if [[ "$confirm" != "y" ]]; then
+    exit 0
+fi
+
 echo "开始系统更新和清理..."
 
 if [ -f /etc/debian_version ]; then
