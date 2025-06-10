@@ -1,6 +1,7 @@
 #!/bin/bash
 clear
 while true; do
+  clear
   read -rp "请输入要执行的脚本编号： " num
 
   if [[ ! "$num" =~ ^[1-9][0-9]*$ ]]; then
