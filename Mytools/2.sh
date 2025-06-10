@@ -1,7 +1,9 @@
 #!/bin/bash
 clear
+echo "系统更新和清理"
+echo
 
-read -rp "是否要系统更新和清理？(y/n): " confirm
+read -rp "确定要继续吗？(y/n): " confirm
 if [[ "$confirm" != "y" ]]; then
     exit 0
 fi
